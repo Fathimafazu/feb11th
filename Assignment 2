@@ -1,0 +1,43 @@
+sno=int(input("enter roll no:"))
+sname=input("enter name:")
+s1=int(input("s1 marks:"))
+s2=int(input("s2 marks:"))
+s3=int(input("s3 marks:"))
+s4=int(input("s4 marks:"))
+s5=int(input("s5 marks:"))
+s6=int(input("s6 marks:"))
+total=s1+s2+s3+s4+s5+s6
+print("total=",total)
+avg=total/6
+print("avg=",avg)
+if avg>=91:
+    print("o grade")
+elif avg>=81:
+     print("a grade")
+elif avg>=71:
+     print("b grade")
+elif avg>=61:
+    print("c grade")
+elif avg>=51:
+    print("pass")
+else:
+    print("fail") 
+enter roll no:
+29
+enter name:
+Fathimunnisa
+s1 marks:
+94
+s2 marks:
+95
+s3 marks:
+96
+s4 marks:
+97
+s5 marks:
+98
+s6 marks:
+99
+total= 579
+avg= 96.5
+o grade
